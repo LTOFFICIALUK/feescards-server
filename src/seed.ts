@@ -107,7 +107,7 @@ const launchOne = async (slug: string) => {
     name: item.name,
     symbol: item.symbol,
     description: descriptions[slug] ?? item.name,
-    twitter: "https://x.com/feescards",
+    twitter: "https://x.com/feesdotcards",
     image,
     cardCount: 10,
     cardPriceLamports: 40_000_000n,
